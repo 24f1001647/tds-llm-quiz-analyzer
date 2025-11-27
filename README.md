@@ -10,45 +10,6 @@ A simple quiz-solving bot that uses Google Gemini to solve data analysis quizzes
 - Downloads and analyzes data files (PDF, CSV, Excel)
 - Submits the answer automatically
 
-## Setup
-
-### 1. Install Python packages
-
-```bash
-pip install -r requirements.txt
-playwright install chromium
-```
-
-### 2. Get Google Gemini API Key
-
-- Go to: https://aistudio.google.com/app/apikey
-- Click "Create API Key"
-- Copy the key
-
-### 3. Create .env file
-
-Copy `.env.example` to `.env`:
-```bash
-copy .env.example .env
-```
-
-Edit `.env` and add your API key:
-```
-GOOGLE_API_KEY=your_key_here
-```
-
-### 4. Test it
-
-```bash
-python test_setup.py
-```
-
-### 5. Run the server
-
-```bash
-python server.py
-```
-
 Server runs on port 7860.
 
 ## How to use
