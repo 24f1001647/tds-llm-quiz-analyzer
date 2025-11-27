@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+downloads/
+temp/
+*.log
+.playwright/
+
+# HuggingFace
+flagged/
+
+# Setup/helper files (optional to exclude)
+test_setup.py
+GITHUB_SETUP.md
+ENV_SETUP.md
+QUICK_START.md
+PROMPTS.md
+# .env.example
